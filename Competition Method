@@ -1,0 +1,17 @@
+public class Competition
+{
+    public static void Competition() {
+        Competitor athlete = new Competitor();
+        
+        athlete.name = "John";
+        athlete.skillLevel = '9';
+        
+        System.out.println("Competitor: " + athlete.name + "\n skill: " + athlete.skillLevel);
+    }
+}
+
+public class Competitor
+{
+    String name;
+    int skillLevel;
+}
