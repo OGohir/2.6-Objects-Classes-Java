@@ -1,0 +1,21 @@
+public class ServiceOntario
+{
+    public static void createLicense() {
+        License licenseToDrive = new License();
+        licenseToDrive.firstName = "John";
+        licenseToDrive.lastName = "Smith";
+        licenseToDrive.classification = 'A';
+        
+        System.out.println("First Name: " + licenseToDrive.firstName + "\nLast Name: " + licenseToDrive.lastName + "\nclassification: " + licenseToDrive.classification);
+        System.out.println(licenseToDrive.firstName + " " + licenseToDrive.lastName + ", " + "with the classification of " + licenseToDrive.classification);
+        
+    }
+}
+
+public class License 
+{
+
+    String firstName;
+    String lastName;
+    char classification ;
+}
