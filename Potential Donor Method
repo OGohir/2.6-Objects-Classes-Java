@@ -1,0 +1,16 @@
+public class PotentialDonor
+{
+    public static void description() {
+        Donor agreed = new Donor();
+        agreed.donate = true;
+        agreed.address = "Farmstead Drive";
+        System.out.println(agreed.donate + " " + agreed.address);
+    }
+}
+
+public class Donor
+{
+    boolean donate;
+    String address;
+    
+}
