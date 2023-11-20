@@ -1,0 +1,22 @@
+
+public class CellPlan
+{
+    public static void wholePlan() {
+        object objectsOf = new object();
+        objectsOf.serviceProvider = "John";
+        objectsOf.monthlyMinutes = 58900;
+        objectsOf.monthlyData = 780;
+        objectsOf.monthlyCost = 16000;
+        // use print statement, if wanting to see what is stored in this method.
+        // System.out.println(objectsOf.serviceProvider + " " + objectsOf.monthlyMinutes + " " + objectsOf.monthlyData  + " " + objectsOf.monthlyCost);
+    }
+}
+
+public class object
+{
+    String serviceProvider;
+    int monthlyMinutes;
+    int monthlyData;
+    float monthlyCost;
+}
+
